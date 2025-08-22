@@ -1,0 +1,776 @@
+<!DOCTYPE html><html lang="en" class="light scroll-smooth" dir="ltr"><head>
+        <meta charset="UTF-8">
+        <title>Ovan - Multipurpose HTML5 Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="Multipurpose HTML5 Template" name="description">
+        <meta content="Business, Corporate, Startups, IT, Multipurpose, Responsive, HTML, Tailwind Css" name="keywords">
+        <meta name="author" content="Shreethemes">
+        <meta name="website" content="https://pyfC0NNEGUtn.in">
+        <meta name="email" content="support@pyfC0NNEGUtn.in">
+        <meta name="version" content="1.0.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- Css -->
+        <!-- Main Css -->
+        <link href="assets/libs/remixicon/fonts/remixicon.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/tailwind.min.css">
+
+    </head>
+    
+    <body class="text-slate-900 dark:text-white dark:bg-slate-900">
+        <!-- Loader Start -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader End -->
+        <!-- Start Navbar -->
+        <nav id="topnav" class="defaultscroll is-sticky">
+            <div class="container relative">
+                <!-- Start Logo container-->
+                <a class="logo" href="index.html">
+                    <span class="inline-block dark:hidden">
+                        <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                        <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
+                    </span>
+                    <img src="assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
+                </a>
+                <!-- End Logo container-->
+
+                <!-- Start Mobile Toggle -->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Mobile Toggle -->
+
+                <!--Login button Start-->
+                <ul class="buy-button list-none">
+                    <li class="inline-block relative me-1">
+                        <button class="text-[20px]" onclick="navbarSearch.showModal()" type="button">
+                            <i class="ri-search-line login-btn-primary align-middle"></i>
+                            <i class="ri-search-line text-white login-btn-light align-middle"></i>
+                        </button>                
+                    </li>
+    
+                    <li class="inline-block relative">
+                        <a href="contactus.html" class="h-9 px-4 tracking-wider items-center text-xs uppercase justify-center font-bold rounded-md bg-primary text-white hidden md:inline-flex">Sign in</a>
+                        <a href="contactus.html" class="size-8 items-center justify-center tracking-wider align-middle duration-500 text-base text-center rounded-md bg-primary text-white md:hidden inline-flex"><i class="ri-phone-line"></i></a>
+                    </li><!--end dropdown--> 
+                </ul>
+                <!--Login button End-->
+
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light">
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Landing</a><span class="menu-arrow"></span>
+
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Business (Index)</a></li>
+                                <li><a href="index-saas.html" class="sub-menu-item">Saas</a></li>
+                                <li><a href="index-software.html" class="sub-menu-item">Software</a></li>
+                                <li><a href="index-online-classes.html" class="sub-menu-item">Online Classes</a></li>
+                                <li><a href="index-digital-agency.html" class="sub-menu-item">Digital Agency</a></li>
+                                <li><a href="index-portfolio.html" class="sub-menu-item">Minimal Portfolio</a></li>
+                                <li><a href="index-it.html" class="sub-menu-item">IT Business</a></li>
+                                <li><a href="index-finance.html" class="sub-menu-item">Finance</a></li>
+                                <li><a href="index-ecommerce.html" class="sub-menu-item">eCommerce</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="aboutus.html" class="sub-menu-item"> About Us</a></li>
+                                <li><a href="services.html" class="sub-menu-item">Services</a></li>
+                                <li><a href="team.html" class="sub-menu-item"> Team</a></li>
+                                <li><a href="pricing.html" class="sub-menu-item">Pricing</a></li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> My Account</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="user-account.html" class="sub-menu-item">User Account</a></li>
+                                        <li><a href="user-billing.html" class="sub-menu-item">Billing</a></li>
+                                        <li><a href="user-payment.html" class="sub-menu-item">Payment</a></li>
+                                        <li><a href="user-invoice.html" class="sub-menu-item">Invoice</a></li>
+                                        <li><a href="user-social.html" class="sub-menu-item">Social</a></li>
+                                        <li><a href="user-notification.html" class="sub-menu-item">Notification</a></li>
+                                        <li><a href="user-setting.html" class="sub-menu-item">Setting</a></li>
+                                    </ul> 
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Helpcenter </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="helpcenter.html" class="sub-menu-item">Overview</a></li>
+                                        <li><a href="helpcenter-faqs.html" class="sub-menu-item">FAQs</a></li>
+                                        <li><a href="helpcenter-guides.html" class="sub-menu-item">Guides</a></li>
+                                        <li><a href="helpcenter-support.html" class="sub-menu-item">Support</a></li>
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Auth Pages </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="login.html" class="sub-menu-item">Login</a></li>
+                                        <li><a href="signup.html" class="sub-menu-item">Signup</a></li>
+                                        <li><a href="forgot-password.html" class="sub-menu-item">Reset Password</a></li>
+                                        <li><a href="lock-screen.html" class="sub-menu-item">Lock Screen</a></li>
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Utility </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="terms.html" class="sub-menu-item">Terms of Services</a></li>
+                                        <li><a href="privacy.html" class="sub-menu-item">Privacy Policy</a></li>
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Special</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="comingsoon.html" class="sub-menu-item">Coming Soon</a></li>
+                                        <li><a href="maintenance.html" class="sub-menu-item">Maintenance</a></li>
+                                        <li><a href="error.html" class="sub-menu-item">Error</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Multi Level Menu</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="javascript:void(0)" class="sub-menu-item">Level 1.0</a></li>
+                                        <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Level 2.0 </a><span class="submenu-arrow"></span>
+                                            <ul class="submenu">
+                                                <li><a href="javascript:void(0)" class="sub-menu-item">Level 2.1</a></li>
+                                                <li><a href="javascript:void(0)" class="sub-menu-item">Level 2.2</a></li>
+                                            </ul>  
+                                        </li>
+                                    </ul>  
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Portfolio</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Modern</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="portfolio-modern-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-modern-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-modern-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-modern-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-modern-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>  
+                                </li>
+                        
+                                <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Classic</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="portfolio-classic-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-classic-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-classic-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-classic-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-classic-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>  
+                                </li>
+                        
+                                <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Creative</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="portfolio-creative-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-creative-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-creative-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-creative-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-creative-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>  
+                                </li>
+                        
+                                <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Masonry</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="portfolio-masonry-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-masonry-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-masonry-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-masonry-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-masonry-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>  
+                                </li>
+                        
+                                <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Portfolio Detail </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="portfolio-detail-one.html" class="sub-menu-item">Portfolio One</a></li>
+                                        <li><a href="portfolio-detail-two.html" class="sub-menu-item">Portfolio Two</a></li>
+                                        <li><a href="portfolio-detail-three.html" class="sub-menu-item">Portfolio Three</a></li>
+                                        <li><a href="portfolio-detail-four.html" class="sub-menu-item">Portfolio Four</a></li>
+                                    </ul>  
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Blogs</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="blogs.html" class="sub-menu-item">Blogs (Grid)</a></li>
+                                <li><a href="blog-left-sidebar.html" class="sub-menu-item">Blogs & Left Sidebar</a></li>
+                                <li><a href="blog-right-sidebar.html" class="sub-menu-item">Blogs & Right Sidebar</a></li>
+                                <li><a href="blogs-list.html" class="sub-menu-item">Blogs (List)</a></li>
+                                <li><a href="blog-list-left-sidebar.html" class="sub-menu-item">Blogs List & Left Sidebar</a></li>
+                                <li><a href="blog-list-right-sidebar.html" class="sub-menu-item">Blogs List & Right Sidebar</a></li>
+                                <li><a href="blog-detail.html" class="sub-menu-item">Blogs Detail</a></li>
+                                <li class="has-submenu child-menu-item"><a href="javascript:void(0)"> Blog Posts </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="blog-standard-post.html" class="sub-menu-item">Standard Post</a></li>
+                                        <li><a href="blog-slider-post.html" class="sub-menu-item">Slider Post</a></li>
+                                        <li><a href="blog-gallery-post.html" class="sub-menu-item">Gallery Post</a></li>
+                                        <li><a href="blog-youtube-post.html" class="sub-menu-item">Youtube Post</a></li>
+                                        <li><a href="blog-vimeo-post.html" class="sub-menu-item">Vimeo Post</a></li>
+                                        <li><a href="blog-audio-post.html" class="sub-menu-item">Audio Post</a></li>
+                                        <li><a href="blog-blockquote-post.html" class="sub-menu-item">Blockquote</a></li>
+                                        <li><a href="blog-left-sidebar-post.html" class="sub-menu-item">Left Sidebar</a></li>
+                                    </ul>  
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Shops</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)"> Shop Grid </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="shop-grid.html" class="sub-menu-item">Shop Grid</a></li>
+                                        <li><a href="shop-grid-left-sidebar.html" class="sub-menu-item">Grid Left Sidebar</a></li>
+                                        <li><a href="shop-grid-right-sidebar.html" class="sub-menu-item">Grid Right Sidebar</a></li>
+                                    </ul>  
+                                </li>
+
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)"> Shop List </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="shop-list.html" class="sub-menu-item">Shop List</a></li>
+                                        <li><a href="shop-list-left-sidebar.html" class="sub-menu-item">List Left Sidebar</a></li>
+                                        <li><a href="shop-list-right-sidebar.html" class="sub-menu-item">List Right Sidebar</a></li>
+                                    </ul>  
+                                </li>
+
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)"> Shop Detail </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="product-detail-one.html" class="sub-menu-item">Product Detail One</a></li>
+                                        <li><a href="product-detail-two.html" class="sub-menu-item">Product Detail Two</a></li>
+                                        <li><a href="product-detail-three.html" class="sub-menu-item">Product Detail Three</a></li>
+                                    </ul>  
+                                </li>
+                                <li><a href="shop-cart.html" class="sub-menu-item">Shop Cart</a></li>
+                                <li><a href="shop-cart-empty.html" class="sub-menu-item">Shop Cart Empty</a></li>
+                                <li><a href="shop-checkout.html" class="sub-menu-item">Checkout</a></li>
+                                <li><a href="shop-checkout-completed.html" class="sub-menu-item">Checkout Completed</a></li>
+                                <li><a href="shop-wishlist.html" class="sub-menu-item">Wishlist</a></li>
+                                <li><a href="shop-wishlist-empty.html" class="sub-menu-item">Wishlist Empty</a></li>
+                            </ul>
+                        </li>
+                
+                        <li><a href="contactus.html" class="sub-menu-item">Contact Us</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </nav><!--end header-->
+        <!-- End Navbar -->
+
+        <!-- Searchbar modal -->
+        <dialog id="navbarSearch" class="modal rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white w-11/12 max-w-5xl m-auto mt-20">
+            <div class="relative w-full h-auto">
+                <form method="dialog" class="modal-backdrop">
+                    <button class="size-5 rounded-md flex justify-center items-center absolute top-0 end-0 btn-ghost"><i class="ri-close-line"></i></button>
+                </form>
+                <div class="p-6 text-center">
+                    <form class="relative">
+                        <i class="ri-search-line text-lg absolute top-2 end-0"></i>
+                        <input type="text" class="w-full py-2 px-3 bg-transparent focus:outline-none rounded-md pe-6 h-10" name="s" id="searchItem" placeholder="Search...">
+                    </form>
+                </div>
+            </div>
+        </dialog>
+        <!-- Searchbar modal -->
+
+        <!-- Start Hero -->
+        <section class="relative table w-full py-24 bg-[url('../../assets/images/bg/blog.jpg')] bg-no-repeat bg-center bg-cover">
+            <div class="absolute inset-0 bg-slate-900/50"></div>
+            <div class="container relative">
+                <div class="grid grid-cols-1 mt-10">
+                    <h3 class="text-3xl md:leading-normal leading-normal font-semibold text-white">Blogs & News</h3>
+                    <p class="text-white/70 text-lg mt-2">Our Latest Blog and News in Grid Layouts</p>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <section class="relative py-4 bg-slate-50 dark:bg-slate-800">
+            <div class="container relative">
+                <div class="grid grid-cols-1">
+                    <ul class="tracking-[0.5px] inline-block">
+                        <li class="inline-block font-semibold uppercase duration-500 text-sm ease-in-out text-slate-400 dark:text-white/50 hover:text-primary dark:hover:text-white"><a href="index.html">Ovan</a></li>
+                        <li class="inline-block text-slate-400 dark:text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i class="ri-arrow-right-s-line"></i></li>
+                        <li class="inline-block font-semibold uppercase duration-500 text-sm ease-in-out text-primary dark:text-white" aria-current="page">Blogs</li>
+                    </ul>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End Hero -->
+        
+        <!-- Start -->
+        <section class="relative md:py-24 py-16">
+            <div class="container relative">
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/1.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">Top 5 Business Trends That Will Dominate in 2025</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/2.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">Business Travel Trends to Expect in 2025: Tech and Efficiency</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/3.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">Management Strategies for Leading Tech-Driven Teams in 2025</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/4.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">How Startups Leverage AI to Disrupt Traditional Business Models</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/5.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">The Future of Sports Tech: What to Expect</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/6.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">Business Travel Tools for the Digital Age</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/7.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">The Power of Tech in Remote Work Success</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/8.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">How Tech Shapes the Future of Work in 2025</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                    
+                    <div class="group relative h-fit overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow-sm shadow-slate-100 dark:shadow-slate-800 duration-500">
+                        <div class="relative overflow-hidden">
+                            <img src="assets/images/blogs/9.jpg" class="group-hover:scale-105 duration-500" alt="">
+
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900 opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                            <div class="absolute start-6 top-4">
+                                <a href="" class="bg-white/70 text-slate-900 hover:bg-primary hover:text-white font-semibold uppercase tracking-wider text-xs px-3 py-1.5 rounded-md">Business</a>
+                            </div>
+
+                            <div class="absolute start-6 bottom-4 flex items-center opacity-0 group-hover:opacity-100 duration-500">
+                                <img src="assets/images/team/1.jpg" class="size-9 rounded-full" alt="">
+
+                                <a href="" class="text- ms-2 text-white hover:text-primary font-medium">Calvin Carlo</a>
+                            </div>
+                        </div>
+
+                        <div class="px-6 py-4 flex justify-between bg-slate-50 dark:bg-slate-800">
+                            <span class="text-sm flex items-center"><i class="ri-calendar-2-line me-1 text-base"></i> <span class="text-slate-400">1st January 2025</span></span>
+                            <span class="text-sm flex items-center"><i class="ri-time-line me-1 text-base"></i> <span class="text-slate-400">5 Min</span></span>
+                        </div>
+
+                        <div class="relative px-6 py-4">
+                            <a href="blog-detail.html" class="text-lg hover:text-primary font-medium">How AI is Revolutionizing Business Management in 2025</a>
+                            
+                            <div class="mt-3">
+                                <a href="blog-detail.html" class="hover:text-primary text-sm font-medium duration-500 ease-in-out">Read More <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end content-->
+                </div><!--end grid-->
+
+                <div class="grid md:grid-cols-12 grid-cols-1 mt-6">
+                    <div class="md:col-span-12 text-center">
+                        <nav>
+                            <ul class="inline-flex items-center -space-x-px">
+                                <li>
+                                    <a href="#" class="size-8 inline-flex justify-center items-center mx-1 rounded-md text-slate-400 bg-white dark:bg-slate-900 hover:text-white shadow-sm shadow-slate-100 dark:shadow-slate-800 hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary">
+                                        <i class="ri-arrow-left-s-line text-[20px]"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-current="page" class="size-8 inline-flex justify-center items-center mx-1 rounded-md font-medium text-white bg-primary shadow-sm shadow-slate-100 dark:shadow-slate-800">1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="size-8 inline-flex justify-center items-center mx-1 rounded-md font-medium text-slate-400 hover:text-white bg-white dark:bg-slate-900 shadow-sm shadow-slate-100 dark:shadow-slate-800 hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary">2</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#" class="size-8 inline-flex justify-center items-center mx-1 rounded-md font-medium text-slate-400 hover:text-white bg-white dark:bg-slate-900 shadow-sm shadow-slate-100 dark:shadow-slate-800 hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary">3</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="size-8 inline-flex justify-center items-center mx-1 rounded-md font-medium text-slate-400 hover:text-white bg-white dark:bg-slate-900 shadow-sm shadow-slate-100 dark:shadow-slate-800 hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary">4</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="size-8 inline-flex justify-center items-center mx-1 rounded-md text-slate-400 bg-white dark:bg-slate-900 hover:text-white shadow-sm shadow-slate-100 dark:shadow-slate-800 hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary">
+                                        <i class="ri-arrow-right-s-line text-[20px]"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start Footer -->
+        <footer class="relative bg-slate-900 dark:bg-slate-800">
+            <div class="container relative">
+                <div class="grid grid-cols-1">
+                    <div class="relative py-16">
+                        <!-- Subscribe -->
+                        <div class="relative w-full">
+                            <div class="grid md:grid-cols-12 grid-cols-1 gap-6">
+                                <div class="lg:col-span-4 md:col-span-12">
+                                    <a href="#" class="text-[22px] focus:outline-none">
+                                        <img src="assets/images/logo-light.png" alt="">
+                                    </a>
+                                    <p class="mt-6 text-gray-300">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
+
+                                    <form class="mt-4 max-w-72">
+                                        <div class="relative">
+                                            <div class="form-icon relative">
+                                                <i class="ri-mail-line absolute top-2 start-4 text-gray-300"></i>
+                                                <input type="email" class="form-input px-10 py-2 h-10 rounded-md w-full bg-transparent border border-slate-800 dark:border-slate-700 text-gray-100 focus:shadow-none focus:ring-0 placeholder:text-gray-400 outline-none" placeholder="Email" name="email" required="">
+                                            </div>
+                                            <button type="submit" id="submitsubscribe" name="send" class="size-9 inline-flex items-center justify-center rounded-md bg-primary/10 text-primary hover:bg-primary hover:text-white duration-500 absolute top-0.5 end-0.5"><i class="ri-mail-line"></i></button>
+                                        </div>
+                                    </form>
+                                </div><!--end col-->
+                        
+                                <div class="lg:col-span-3 md:col-span-3">
+                                    <h5 class="tracking-[1px] text-gray-100 font-semibold text-lg">Services</h5>
+                            
+                                    <ul class="list-none footer-list mt-6">
+                                        <li><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Installation</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Maintenance</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">System Design</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Energy Consulting</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Financing</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Feasibility Analysis</a></li>
+                                    </ul>
+                                </div><!--end col-->
+                        
+                                <div class="lg:col-span-2 md:col-span-3">
+                                    <h5 class="tracking-[1px] text-gray-100 font-semibold text-lg">Company</h5>
+
+                                    <ul class="list-none footer-list mt-6">
+                                        <li><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="aboutus.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">About Us</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Services</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="projects.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Projects</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="blogs.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Blogs</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="pricing.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Pricing</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="team.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Team</a></li>
+                                        <li class="mt-[10px]"><i class="ri-arrow-right-s-line text-gray-400 me-1"></i><a href="faqs.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">FAQs</a></li>
+                                    </ul>
+                                </div><!--end col-->
+    
+                                <div class="lg:col-span-3 md:col-span-6">
+                                    <h5 class="tracking-[1px] text-gray-100 font-semibold text-lg">Get In Touch</h5>
+                            
+                                    <div class="flex mt-6">
+                                        <i class="ri-map-pin-line text-2xl text-primary me-2"></i>
+                                        <div class="">
+                                            <h6 class="text-gray-300">C/54 Northwest Freeway, <br> Houston, USA 485</h6>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="flex mt-4">
+                                        <i class="ri-phone-line text-2xl text-primary me-2"></i>
+                                        <div class="">
+                                            <a href="tel:+152534-468-854" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">+152 534-468-854</a>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-none mt-6">
+                                        <li class="inline"><a href="https://1.envato.market/ovan" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-shopping-cart-line"></i></a></li>
+                                        <li class="inline"><a href="https://dribbble.com/shreethemes" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-dribbble-line"></i></a></li>
+                                        <li class="inline"><a href="https://www.behance.net/shreethemes" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-behance-line"></i></a></li>
+                                        <li class="inline"><a href="http://linkedin.com/company/shreethemes" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-linkedin-line"></i></a></li>
+                                        <li class="inline"><a href="https://www.facebook.com/shreethemes" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-facebook-circle-line"></i></a></li>
+                                        <li class="inline"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-instagram-line"></i></a></li>
+                                        <li class="inline"><a href="https://twitter.com/shreethemes" target="_blank" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-twitter-x-line"></i></a></li>
+                                        <li class="inline"><a href="mailto:support@pyfC0NNEGUtn.in" class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i class="ri-mail-line"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+                            </div><!--end grid-->
+                        </div>
+                        <!-- Subscribe -->
+                    </div>
+                </div>
+            </div><!--end container-->
+
+            <div class="py-[30px] px-0 border-t border-gray-800 dark:border-gray-700">
+                <div class="container relative text-center">
+                    <div class="grid md:grid-cols-2 items-center gap-6">
+                        <div class="md:text-start text-center">
+                            <p class="text-gray-300">© <script>document.write(new Date().getFullYear())</script> Ovan. Design with <i class="ri-heart-fill text-red-600"></i> by <a href="https://pyfC0NNEGUtn.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div>
+
+                        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-md z-10 size-8 bg-primary text-white flex justify-center items-center md:ms-auto md:mx-0 mx-auto"><i class="ri-arrow-up-line align-middle"></i></a>
+                    </div><!--end grid-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- End Footer -->
+        <!-- Switcher -->
+        <div class="fixed top-1/4 -right-2 z-3">
+            <span class="relative inline-block rotate-90">
+                <input type="checkbox" class="checkbox opacity-0 absolute" id="chk">
+                <label class="label bg-slate-900 dark:bg-white shadow-sm shadow-slate-100 dark:shadow-slate-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-[60px] h-8" for="chk">
+                    <i class="ri-moon-line text-yellow-500 ps-1 relative z-1"></i>
+                    <i class="ri-sun-line text-yellow-500 pe-1 relative z-1"></i>
+                    <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] size-7"></span>
+                </label>
+            </span>
+        </div>
+        <!-- Switcher -->
+
+        <!-- LTR & RTL Mode Code -->
+        <div class="fixed top-[40%] -right-3 z-50">
+            <a href="" id="switchRtl">
+                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-sm shadow-slate-100 dark:shadow-slate-800 font-semibold rtl:block ltr:hidden">LTR</span>
+                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-sm shadow-slate-100 dark:shadow-slate-800 font-semibold ltr:block rtl:hidden">RTL</span>
+            </a>
+        </div>
+        <!-- LTR & RTL Mode Code -->
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/js/plugins.init.js"></script>
+        <script src="assets/js/app.js"></script>
+        <!-- JAVASCRIPTS -->
+    
+</body></html>
